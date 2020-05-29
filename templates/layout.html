@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Google API Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='script2.js') }}"></script>
+  </head>
+  <body>
+    <input type="text" id="query" placeholder="Search for something..."><br>
+    <button id="search">Search</button><br>
+    <button id="geoLocate">Geo Locate</button>
+
+    <div id="image"></div>
+
+  </body>
+</html>
