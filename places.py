@@ -34,7 +34,7 @@ def getGeolocate():
     search_req2 = requests.get(search_reverse_geo + "?latlng=" + lat + "," + lng + "&key=" + key)
 
     resp = search_req2.json()
-
+    #heroku prod
     return resp
 
 if __name__ == "__main__":
